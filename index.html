@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Usuários</title>
+    <link rel="stylesheet" href="./CSS/reset.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+</head>
+
+<body class="has-text-grey hero">
+
+    <main class="column is-7 hero-body is-offset-one-fifth is-unselectable">
+        <form id="form-usuario" class="box has-background-white">
+            <h2 class="title__fomr">Cadastrar Usuário</h2>
+            
+            <div class="field">
+                <label class="label">Nome</label>
+                <div class="control">
+                    <input class="input" type="text" placeholder="Nome completo" id="nome-usuario" required>
+                </div>
+            </div>
+
+            <div class="field">
+                <label class="label">E-mail</label>
+                <div class="control">
+                    <input class="input" type="email" placeholder="E-mail" id="email-usuario" required >
+                </div>
+            </div>
+
+            <div class="field">
+                <label class="label">Telefone</label>
+                <div class="control">
+                    <input class="input" type="tel" placeholder="Telefone" id="telefone-usuario" required>
+                </div>
+            </div>
+
+            <div class="container__botao">
+                <button type="submit" class="button__form">Salvar Usuário</button>
+            </div>
+        </form>
+
+    
+        <div class="has-background-white mt-4">
+            <h2 class="title__cadastrado">Usuários Cadastrados</h2>
+            <ul class="" id="lista-usuarios">
+                <!-- Os usuários serão adicionados aqui -->
+            </ul>
+        </div>
+    </main>
+
+
+    <script src="./JS/script.js"></script>
+</body>
+</html>

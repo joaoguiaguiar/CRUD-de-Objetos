@@ -1,0 +1,66 @@
+html {
+    background: linear-gradient(177.52deg, #1d2639 2.11%, #07203f 81.34%);
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
+body {
+    font-family: "Roboto", system-ui;
+}
+
+.title__fomr{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bolder;
+}
+
+button {
+    border: none;
+}
+
+.itens-comprados {
+text-decoration: line-through;
+}
+
+.borda-lista {
+    border-bottom: dotted 2px blue;
+}
+
+input:disabled {
+    border: none;
+    background: none;
+    color: black;
+}
+
+input {
+    border: none;
+    background: none;
+    color: black;
+}
+
+.container__botao{
+    text-align: center;
+}
+
+.button__form{
+    background-color: black;
+    padding: 0.5em 2em;
+    color: white;
+    border-radius: 0.5rem;
+}
+
+
+
+.title__cadastrado{
+    padding: 0.5rem;
+    text-align: center;
+    color: #31363F;
+    font-size: 2rem;
+    font-weight: bolder;
+}
+
+.item-usuario {
+    padding: 10px; 
+    border: 1px solid #ccc; 
+    margin: 5px 0; 
+}
