@@ -100,7 +100,7 @@ input {
     }
 }
 
-/* Para telas menores que 480px (smartphones pequenos) */
+
 @media (max-width: 480px) {
     h2 {
         font-size: 18px;
