@@ -64,3 +64,54 @@ input {
     border: 1px solid #ccc; 
     margin: 5px 0; 
 }
+
+@media (max-width: 768px) {
+    main {
+        width: 100%;
+    }
+
+    form {
+        padding: 10px;
+    }
+
+    .container__botao {
+        display: flex;
+        justify-content: center;
+        margin-top: 15px;
+    }
+
+    button {
+        width: 100%;
+        font-size: 18px;
+    }
+
+    .input {
+        font-size: 16px;
+        padding: 10px;
+    }
+
+    h2 {
+        font-size: 22px;
+        text-align: center;
+    }
+
+    .has-background-white {
+        padding: 10px;
+    }
+}
+
+/* Para telas menores que 480px (smartphones pequenos) */
+@media (max-width: 480px) {
+    h2 {
+        font-size: 18px;
+    }
+
+    .input {
+        font-size: 14px;
+        padding: 8px;
+    }
+
+    button {
+        font-size: 16px;
+    }
+}
