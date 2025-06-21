@@ -1,4 +1,4 @@
-Sobre
+#Sobre
 
 Este foi o meu primeiro projeto implementando um sistema CRUD (Criar, Ler, Atualizar e Deletar), que me ajudou a entender e aplicar os conceitos fundamentais por trás da manipulação de dados. O projeto consiste em um cadastro de pessoas, onde é possível registrar informações como nome, e-mail e telefone.
 
